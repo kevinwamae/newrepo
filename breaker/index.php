@@ -16,7 +16,7 @@ ini_set('display_errors','1');
 */
 function breaker($url,$homedate,$wait_time){
   //convert to time
-  $hometime =  strtotime($homedate);
+  $hometime =  strtotime($homedate);//time in seconds in utc time from 1970
 
   echo '<div>Scheduled breaktime every <b>'.$wait_time.' seconds!</b></div>';
   echo '<br/><p></p><div style="font-size:24px;" id="timer"></div>';
