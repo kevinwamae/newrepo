@@ -1,26 +1,3 @@
-<<<<<<< HEAD
-<?php
-// valid strings
-$welcome_message="How are you?";
-
-//Declare the above in two more ways
-
-$welcome_message1="Im okay.";
-$welcome_message_array="You're sure ?";
-$welcome_message1=<<<WMK
-Arwings Showed Paul an array
-WMK;
-//Display every word of the string above in a new line.
-
-//split this string
-$welcome_message_array=explode(' ',$welcome_message);
-foreach ($welcome_message_array as $word){
-  echo "{$word}<br>";
-
-}
-
-?>
-=======
 <!DOCTYPE html>
 <?php
 //force PHP to display error - useful for debugging
@@ -218,4 +195,3 @@ function sanitizeCurrencies($string,$add_decimal = false){
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 </body>
 </html>
->>>>>>> b11a44ae217e560217985cb52687166d38273394
